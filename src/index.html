@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <title>curology</title>
+</head>
+<body>
+  <div class="font-poppins font-Nunito">
+     <!--nav bar and hero section  -->
+    <header>
+          <!-- Nav bar -->
+       <nav class="flex p-5 px-7 items-center ">
+           <a class="flex-grow" href="#" target="_blank" rel="noopener noreferrer">
+           <img class="h-8 md:h-full" src="/src/assets/logo.png" alt="" srcset="">
+           </a>
+   
+           <ul class="hidden md:flex items-center text-brand-black gap-5 text-2xl font-semibold">
+               <li>
+                   <a href="#">HOME</a>
+               </li>
+               <li>
+                   <a href="#">ABOUT</a>
+               </li>
+               <li>
+                   <a href="#">SERVICES</a>
+               </li>
+               <li>
+                   <a href="#">WORK</a>
+               </li>
+               <li>
+                   <a href="#">TEAM</a>
+               </li>
+               <li>
+                   <a href="#">CLIENT</a>
+               </li>
+               <li>
+                   <a href="#">CONTACT</a>
+               </li>
+           </ul>
+           <!-- moblie hamburger -->
+            <div class="md:hidden border-amber-300" >
+              <img src="/src/assets/hamburgermenu1.png" alt="hamburger" >
+            </div>
+       </nav>
+       <!-- HERO SECTION -->
+       <div class=" lg:h-[666px] h-[526px] bg-[url(/src/assets/hero-bg-md.png)] bg-cover bg-center bg-no-repeat  md:bg-[url(/src/assets/hero-bg.png)]">
+        <div class="max-w-[1000px] mx-auto h-full flex md:items-center items-end">
+            <div class="w-[389px] md:my-auto space-y-7 ">
+                <h5 class="text-2xl font-bold text-brand-blue pl-8 md:pl-o">All Natural</h5>
+                <h1 class="md:text-[64px] md:w-[389px]  w-[241px] text-4xl md:leading-[96px] pl-8 md:pl-0 leading-[54px] font-extrabold">
+                    Celebrate Your 
+                    <span class="text-brand-bluey">Skin</span>
+                </h1>
+                <p class="md:text-lg text-[11px] font-normal pb-2 pl-8 md:pl-0 md:w-[303] w-[247px]">
+                    amet sint. Velit officia consequat duis enim velit mollit. Exercitatio
+                </p>
+                <button class="border-2 w-[278px] h-[71.51px] hidden md:flex items-center justify-center rounded text-2xl">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+       </div>
+      </header>
+      
+      <!-- Top Beauty Products -->
+      <section class="w-full py-12 bg-white">
+        <div class="max-w-[1200px] mx-auto px-4">
+          <h2 class="text-4xl font-bold text-center mb-8 mt-9 leading-14 hidden md:block">
+            Top Beauty Products
+        </h2>
+        
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Product 1 -->
+            <div class="flex flex-col md:ml-0 ml-6">
+                <h3 class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8" >
+                Skin care body lotion For Women
+                </h3>
+                <img src="/src/assets/creams.png" alt="Skin care body lotion" class="md:w-[347.49px] w-[300px] md:h-[310.87px] h-[268px] mb-4 md:m-auto">
+                <p class="mb-4 leading-8 font-normal text-lg w-[301px] pl-2">
+                Armet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                </p>
+                <div class="items-center px-22">
+                  <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-sm  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+                  Buy Now  <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                  </a>
+                </div>
+              
+              <div class="flex justify-center mt-6 space-x-2 md:hidden"> 
+                <span class="w-[15.16px] h-[15.16px] bg-gray-300 rounded-full"></span>
+                <span class="w-[15.16px] h-[15.16px] bg-orange-600 rounded-full"></span>
+                <span class="w-[15.16px] h-[15.16px] bg-gray-300 rounded-full"></span>
+            </div>
+            
+            </div>
+            
+          <!-- product 2 -->
+            <div class="md:flex hidden flex-col">
+                <h3 class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8" >
+                    Best Facial and Hand wash Creams 
+                </h3>
+                <img src="/src/assets/boby-oil.png" alt="Skin care body lotion" class="w-[347.49px] h-[310.87px] mb-4">
+                <p class="mb-4 leading-8 font-normal text-lg w-[349px] pl-2">
+                  Nunc convallis pellentesque volutpat lorem urna molestie. Egestas nec porta viverra sit.                
+                </p>
+              <div class="items-center px-22">
+                  <a href="#" class="bg-orange-600 text-white py-2 px-4 rounded-md  flex justify-between w-[194px] h-[67px] items-center">
+                  Buy Now  <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                  </a>
+              </div>
+            </div>
+            <!-- product 3 -->
+            <div class="md:flex hidden flex-col">
+                <h3 class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8" >
+                    Smooth Hands lotion For Women
+                </h3>
+                <img src="/src/assets/lotion.png" alt="Skin care body lotion" class="w-[347.49px] h-[310.87px] mb-4">
+                <p class="mb-4 leading-8 font-normal text-lg w-[349px] pl-2 justify-around">
+                    Nunc convallis pellentesque volutpat lorem urna molestie. Egestas nec porta viverra sit.
+                </p>
+                <div class="items-center px-22">
+                  <a href="#" class="bg-orange-600 text-white py-2 px-4 rounded-md  flex justify-between w-[194px] h-[67px] items-center">
+                  Buy Now  <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                  </a>
+                </div>
+
+            </div>
+        </div>
+      </section>
+    <!-- About Us -->
+      <section class="w-full py-12 bg-white hidden md:block">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+          
+          <!-- Image Section -->
+          <div>
+            <img src="/src/assets/girlie.png" alt="About Us" class="w-[753px] h-[700px]">
+          </div>
+      
+          <!-- Text Content Section -->
+          <div class="my-auto h-[500px] w-[500px]">
+            <h4 class="text-red-600 font-bold uppercase mb-5 text-2xl leading-9">About Us</h4>
+            <h2 class="text-4xl font-bold leading-14">What makes us different</h2>
+            <hr class="w-16 border-t-2 border-black mb-10 ml-6">
+            <p class="mb-8 leading-[30px] text-lg font-normal">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation. Especially our spirit to learn what is peculiar to individuals instead of producing masses for everyone at on.
+            </p>
+            <a href="#" class="bg-orange-600 text-white w-[197px] h-[67px] rounded-md flex items-center justify-center gap-4">
+              Read More 
+              <img src="/src/assets/arrow-down-drop.png" alt="Arrow Icon" class="w-5 h-5">
+            </a>
+          </div>
+      
+        </div>
+      </section>
+
+    <!-- ABOUT US MOBILE -->
+     <section class="w-full py-12 bg-white md:hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+       
+         <div>
+          <h4 class="text-red-600 font-bold uppercase mb-5 text-2xl leading-9 text-center">About Us</h4>
+          <h2 class="text-4xl font-bold leading-14 text-center">What makes us different</h2>
+          <hr class="w-16 border-t-2 border-black mb-10  ml-36">
+         </div>
+        <div>
+          <img src="/src/assets/girlie.png" alt="About Us" class="w-[753px] h-[700px] object-fill">
+        </div>
+    
+        
+        <div class="m-auto w-[500px] items-center ml-10">
+          <p class="mb-8 leading-[18.56px] text-[11px] font-normal w-[297px] h-[94px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation. Especially our spirit to learn what is peculiar to individuals instead of producing masses for everyone at on.
+          </p>
+          <div class="items-center px-22">
+            <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-s  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+            View More <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+            </a>
+         </div>
+        </div>
+      </div>
+    </section>
+      
+      <!-- PRODUCTS -->
+      <section class="w-full py-12 bg-orange-600 md:h-[1040px] h-[650px]">
+        <div class="max-w-[1200px] mx-auto px-4 text-white md:pt-10 ">
+          <div class="text-center">
+                <h4 class="text-white font-bold text-2xl  md:pb-9 pb-5 leading-9">PRODUCTS</h4>
+                <h2 class="text-white md:text-[40px] text-lg leading-16 font-bold md-4">Editors Pick</h2>
+                <div class="md:w-20 w-[50px] border-t-2 border-white mb-10 md:ml-119 ml-35"></div>
+          </div>
+      
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+              <!-- Product 1 -->
+              <div class="md:flex hidden flex-col">
+                  <h3 class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8" >
+                  Skin care body lotion For Women
+                  </h3>
+                  <p class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8">
+                    By beauty SA
+                  </p>
+                  <img src="/src/assets/body-lotion.png" alt="Skin care body lotion" class="w-[347.49px] h-[310.87px] mb-4">
+                  <p class="mb-4 leading-8 font-normal text-lg pt-10 w-[349px]">
+                  Armet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <a href="#" class="flex items-center gap-2 text-white font-medium relative">
+                    <img src="/src/assets/arrow-down-drop.png" alt="Arrow Icon" class="w-4 h-4">
+                    <span class="border-b-2 border-black text-[13px] font-bold">More</span>
+                  </a>                  
+              </div>
+              
+            <!-- product 2 -->
+              <div class="flex  flex-col md:ml-0 ml-20 ">
+                <h3 class="md:text-lg text-[11px] font-bold leading-6 md:mb-4 mb-1.5 md:items-start md:w-[286px] w-[155px] md:pl-8 pl:0 text-center md:text-left md:m-auto m-0" >
+                      Best Facial and Hand wash Creams 
+                  </h3>
+                  <p class="md:text-lg text-[11px] font-bold md:leading-6 leading-[16.5px] mb-4  items-start w-[286px] pl-8 md:text-white text-gray-300">
+                    By The Ordinary
+                  </p>
+                  <img src="/src/assets/hand-wash.png" alt="Skin care body lotion" class="md:w-[347.49px] md:h-[310.87px] w-[198px] h-[151px] md:mb-4 mb-1">
+                  <p class="mb-4 md:leading-8 leading-[17.3px] font-normal md:text-lg text-[11px] md:pt-10 pt-2 md:w-[349px] w-[198px]">
+                      Ut ligula orci placerat sed elit tortor. Quam volutpat sed diam posuere pellentesque lu
+                  </p>
+                  <a href="#" class="flex items-center gap-2 text-white font-medium relative">
+                    <img src="/src/assets/arrow-down-drop.png" alt="Arrow Icon" class="w-4 h-4 hidden md:block ">
+                    <span class="border-b-2 md:border-black border-white md:text-[13px] text-[11px] md:font-bold font-normal">More</span>
+                  </a>   
+              </div>
+              <!-- product 3 -->
+              <div class="md:flex hidden flex-col">
+                  <h3 class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8" >
+                      Smooth Hands lotion For Women
+                  </h3>
+                  <p class="text-lg font-bold leading-6 mb-4 items-start w-[286px] pl-8">
+                        By Day Tox
+                  </p>
+                  <img src="/src/assets/hand-lotion.png" alt="Skin care body lotion" class="w-[347.49px] h-[310.87px] mb-4">
+                  <p class="mb-4 leading-8 font-normal text-lg pt-10 w-[349px]">
+                      Nunc convallis pellentesque volutpat lorem urna molestie. Egestas nec porta viverra sit.
+                  </p>
+                  <a href="#" class="flex items-center gap-2 text-white font-medium relative">
+                    <img src="/src/assets/arrow-down-drop.png" alt="Arrow Icon" class="w-4 h-4">
+                    <span class="border-b-2 border-black text-[13px] font-bold">More</span>
+                  </a>   
+              </div>
+          </div>
+            
+      
+          <!-- Pagination Dots -->
+          <div class="flex justify-center  md:pt-30 pt-9 gap-3">
+            <span class="w-[15px] h-[15px] bg-gray-400 rounded-full"></span>
+            <span class="w-[20px] h-[20px] bg-white rounded-full"></span>
+            <span class="w-[15px] h-[15px] bg-gray-400 rounded-full"></span>
+          </div>
+        </div>
+      </section>
+     
+      <!-- FEEDBACK -->
+      <section class="w-full py-12 bg-white">
+        <div class="max-w-[1200px] h[1040px] mx-auto px-4 ">
+
+          <div class="md:text-left text-center">
+            <h3 class="text-red-600 md:text-2xl font-medium mb-9 font-Nunito">FEEDBACK</h3>
+            <h2 class="text-[33.78px] font-bold mb-4">Customers Review</h2>
+            <div class="w-16 border-t-2 border-black mb-8 mx-auto md:mx-0"></div>
+          </div>
+        
+          <div class="hidden md:block">
+            <div class="flex  justify-center items-center space-x-8">
+              <!-- Left Review -->
+              <div class="text-center text-gray-500 w-1/4 ">
+                <img src="/src/assets/Ellipse.png" alt="Customer" class="mx-auto w-[118.09px] h-[118.09px] rounded-full mb-4">
+                <p class="mb-2 text-[16.11px] font-bold leading-[31.32px] p-8 italic">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="font-medium text-sm italic">dololit of membranus</span>
+              </div>
+          
+              <!-- Center Review -->
+              
+              <div class="bg-white shadow-lg text-center p-8 rounded-lg w-1/3 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+                <img src="/src/assets/Ellipse-1.png" alt="Customer" class="w-[118.09px] h-[118.09px]rounded-full mb-4 m-auto">
+                <p class="mb-2 text-[16.11px] font-bold leading-[31.32px] p-8 italic">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim dpolioli exclis</p>
+                <span class="font-medium text-black text-sm italic">dololit of membranus</span>
+              </div>
+
+
+              <!-- Right Review -->
+              <div class="text-center text-gray-500 w-1/4 ">
+                <img src="/src/assets/Ellipse-2.png" alt="Customer" class="mx-auto w-[118.09px] h-[118.09px] rounded-full mb-4">
+                <p class="mb-2 text-[16.11px] font-bold leading-[31.32px] p-8 italic">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                <span class="font-medium text-sm italic">dololit of membranus</span>
+              </div>
+            </div>
+            <div class="flex justify-center mt-6 space-x-2">
+              <span class="w-[19px] h-[19px] bg-gray-300 rounded-full"></span>
+              <span class="w-[19px] h-[19px] bg-black rounded-full"></span>
+              <span class="w-[19px] h-[19px] bg-gray-300 rounded-full"></span>
+            </div>
+          </div>
+            
+            <!-- mobile review -->
+             <div class="md:hidden">
+              <div class="bg-white shadow-lg text-center p-8 rounded-lg w-[293px] h-[350px] hover:shadow-2xl hover:scale-105 transition-transform duration-300 m-auto">
+                 <img src="/src/assets/Ellipse-9.png" alt="Customer" class="w-[72.86px] h-[72.86px]rounded-full mb-4 m-auto">
+                 <p class=" text-[12.03px] font-bold leading-[23.4px] w-[245.33px]  p-8 italic m-auto">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim dpolioli exclis</p>
+                 <span class="font-medium text-black text-sm italic">dololit of membranus</span>
+               </div>
+   
+               <!-- Pagination Dots -->
+               <div class="flex justify-center mt-6 space-x-2">
+                 <span class="w-[19px] h-[19px] bg-gray-300 rounded-full"></span>
+                 <span class="w-[19px] h-[19px] bg-black rounded-full"></span>
+                 <span class="w-[19px] h-[19px] bg-gray-300 rounded-full"></span>
+               </div>
+             </div>
+        </div>
+      </section>
+    
+      <!-- BEAUTY TIPS -->
+      <section class=" w-full py-12 bg-white">
+        <div class="max-w-[1200px] h[1090px] mx-auto px-4 ">
+
+            <div class="md:text-left text-center">
+                <h3 class="text-red-600 text-2xl font-medium mb-9">BEAUTY TIPS</h3>
+                <h2 class="text-[33.78px] font-bold mb-4">Routines</h2>
+                <div class="w-16 border-t-2 border-black mb-8 md:m-0 m-auto"></div>
+            </div>
+          
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:ml-0 ml-6">
+              <!-- Night Routines Card -->
+              <div>
+                <h3 class="text-[28px] font-bold mb-4 leading-[38.19px] md:hidden">Night Routines</h3>
+                <div class="w-16 border-t-2 border-black mb-4 md:hidden"></div>
+                <img src="/src/assets/night.png" alt="Night Routines" class="md:w-[508px] w-[292px] md:h-[457px] h-[279px] mb-4 md:pt-9 pt-0">
+                <h3 class="text-[28px] font-bold mb-9 leading-[38.19px] hidden md:block">Night Routines</h3>
+                <div class="w-16 border-t-2 border-black mb-9 hidden md:block"></div>
+                <p class="text-black md:leading-[35px] leading-[17.89px] md:w-[508px] w-[292px] md:mb-20 mb-4 md:text-lg text-[11px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim dololit of membranus frisky as maughter interemblum hormta slurplundey.</p>
+                <div class="items-center px-22">
+                  <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-s  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+                  View More <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                  </a>
+               </div>
+              </div>
+          
+              <!-- Face Care Routines Card -->
+              <div>
+                <h3 class="text-[28px] font-bold mb-4 leading-[38.19px] pt-10 md:hidden">Face Care Routines</h3>
+                <div class="w-16 border-t-2 border-black mb-4 md:hidden"></div>
+                <img src="/src/assets/face.png" alt="Face Care Routines" class="md:w-[508px] w-[292px] md:h-[457px] h-[279px] mb-4 md:pt-9 pt-0">
+                <h3 class="text-[28px] font-bold mb-9 leading-[38.19px] hidden md:block">Face Care Routines</h3>
+                <div class="w-16 border-t-2 border-black mb-4 hidden md:block"></div>
+                <p class="text-black md:leading-[35px] leading-[17.89px] md:w-[508px]  md:h-[172px] h-[67px] w-[292px] md:mb-15 mb-4 md:text-lg text-[11px]">Duis porttitor egestas at arcu, id euismod sagittis. Amet ridiculus molestie id augue lorem eleifend ultrices in auctor. Sit mollis amet, mauris ac rhoncus.</p>
+                <div class="items-center px-22">
+                  <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-s  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+                  View More <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                  </a>
+               </div>
+              </div>
+            </div>
+        </div>
+      </section>
+     
+      <!-- ACHIEVEMENTS -->
+      <section class="w-full py-12">
+        <div class="relative overflow-hidden rounded-t-4xl">
+          <div class="md:w-full md:h-[872px] h-[667px] w-[375px]  bg-cover bg-center bg-no-repeat md:bg-[url(/src/assets/bg-imagr.png)] bg-[url(/src/assets/bg-image.png)]">
+      
+            <!-- Background Overlay -->
+            <div class="absolute inset-0 bg-bgimg-black bg-opacity-30 md:w-full md:h-[872px] h-[667px] w-[375px] rounded-t-4xl"></div>
+      
+            <!-- Content -->
+            <div class="relative z-10 max-w-2xl mx-auto px-7 md:pt-35 pt-20 items-center">
+              <h4 class="text-2xl font-bold leading-8 text-white mb-5 text-center">ACHIEVEMENTS</h4>
+              <h2 class="md:text-[40px] text-[20px] leading-[60px] font-bold mb-2 text-center md:text-black text-white">Why choose Us</h2>
+              <div class="w-20 border-t-2 border-orange-700 mb-10 m-auto"></div>
+      
+              <p class="mb-10 md:text-lg  text-[11px] font-normal text-white md:leading-[30px] leading-[17.3px] md:w-[638px]  text-center">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation. Especially our spirit to learn what is peculiar to individuals instead of producing masses for everyone at on.
+              </p>
+              <p class="mb-12 md:text-lg text-[11px] font-normal text-white md:leading-[30px] leading-[17.3px] text-center md:w-[638px] ">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitatio
+              </p>
+              <div class="flex justify-center items-center px-22 md:pt-15 pt-7">
+                <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-s  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+                View More <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Our blog -->
+      <section class="w-full py-12 bg-white">
+        <div class="max-w-[1200px] h[1040px] mx-auto px-4">
+
+          <div class="text-center mb-8">
+            <h4 class="text-lg font-bold text-red-500 leading-[32.74px] md:mb-20 mb-7">OUR BLOG</h4>
+            <hr class="w-16 border-t-2 border-black  ml-120 mb-4 hidden md:block">
+            <h2 class="text-4xl leading-[49.1px] font-bold text-black">Latest News</h2>
+            <hr class="w-16 border-t-2 border-black mx-auto mt-2">
+          </div>
+        
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Blog Card 1 -->
+            <div class=" bg-white hidden md:block">
+              <div class="relative">
+                <img src="/src/assets/blog-img.png" alt="Blog 1" class="w-[348px] h-[304px] mb-4">
+                <div class="absolute top-0 left-0 text-white text-center">
+                  <p class="bg-red-600 px-2 py-1 text-[33.78px] font-bold">29</p>
+                  <p class="bg-black px-2 py-1 text-lg">JUNE</p>
+                </div>                
+              </div>
+              <div class="p-4">
+                <h3 class="text-2xl leading-9 font-bold mb-2 w-[312px]">BEST 10 TEN BEARD CARE PRODUCTS</h3>
+                <p class="text-gray-600 text-[19px] leading-[28.5px] font-normal w-[312]">
+                  Sed velit vitae cursus lorem. Cursus ut nunc, suspendisse purus sit tincidunt quis. Praesent viverra luctus hendrerit tellus id.
+                </p>
+              </div>
+            </div>
+        <!-- Blog card 2 -->
+            <div class=" bg-white hidden md:block">
+              <div class="relative">
+                <img src="/src/assets/blog-img2.png" alt="Blog 1" class="w-[348px] h-[304px] mb-4">
+                <div class="absolute top-0 left-0 text-white text-center">
+                  <p class="bg-red-600 px-2 py-1 text-[33.78px] font-bold">29</p>
+                  <p class="bg-black px-2 py-1 text-lg">JUNE</p>
+                </div>                
+              </div>
+              <div class="p-4">
+                <h3 class="text-2xl leading-9 font-bold mb-2 w-[312px]">BEST 10 TEN BEARD CARE PRODUCTS</h3>
+                <p class="text-gray-600 text-[19px] leading-[28.5px] font-normal w-[312px]">
+                  Sed velit vitae cursus lorem. Cursus ut nunc, suspendisse purus sit tincidunt quis. Praesent viverra luctus hendrerit tellus id.
+                </p>
+              </div>
+            </div>
+           <!-- Blog card 3 -->
+            <div class=" bg-white">
+              <div class="relative md:ml-0 ml-10">
+                <img src="/src/assets/blog-img3.png" alt="Blog 1" class="md:w-[348px] md:h-[304px] w-[236px] h-[206.99px] mb-4 ">
+                <div class="absolute top-0 left-0 text-white text-center">
+                  <p class="bg-red-600 px-2 py-1 text-[33.78px] font-bold">29</p>
+                  <p class="bg-black px-2 py-1 text-lg">JUNE</p>
+                </div>                
+              </div>
+              <div class="p-4 md:ml-0 ml-5">
+                <h3 class="md:text-2xl md:leading-9 font-bold mb-2 text-[21.88px] md:w-[312px] w-[244px]">BEST 10 TEN BEARD CARE PRODUCTS</h3>
+                <p class="text-gray-600 md:text-[19px] text-[11px] md:leading-[28.5px] leading-[17.09px] md:w-[312px] w-[235px] font-normal">
+                  Sed velit vitae cursus lorem. Cursus ut nunc, suspendisse purus sit tincidunt quis. Praesent viverra luctus hendrerit tellus id.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- View More Button -->
+          
+        <div class="flex justify-center items-center px-22 md:pt-15 pt-7">
+          <a href="#" class="bg-orange-600 text-white md:text-[19px] text-[13px] py-2 px-4 rounded-s  flex justify-between md:w-[194px] w-[119px] md:h-[67px] h-[41.09px] items-center">
+          View More <img src="/src/assets/arrow-down-drop.png" alt="arror-dwn-icon">
+          </a>
+        </div>
+        
+      </section>
+      
+    <!--Newsletter -->
+      <section class="bg-orange-600 md:h-[362px] h-[184px] w-full flex flex-col justify-center items-center">
+        <p class="text-white mb-6 md:text-[19px] md:leading-[28.5px] font-normal">Subscribe to our newsletter for latest updates</p>
+        <div class=" flex">
+          <input type="email" placeholder="" class="border border-white border-r-0 px-4 py-3 outline-none w-[173px] md:w-[336px] h-[36px] md:h-[70px] bg-transparent text-white placeholder-white rounded-l-md" />
+          <button class="bg-black text-[10px] md:text-[18px] font-normal text-white px-2 py-3  rounded-r-md w-[110px] md:w-[196.38px] h-[36px] md:h-[70px]">Subscribe Now</button>
+      </div>
+      </section>
+
+      <footer class="bg-black text-white w-full flex flex-col justify-between items-center py-12 px-12 ">
+        <div class="md:max-w-[1200px] md:h-[410px] mx-auto px-4">
+
+            <!-- Navigation and Logo -->
+            <a href="#" class="md:w-[142px]">
+                    <img src="/src/assets/RAYVIAR.png" alt="logo" class=" md:hidden mx-auto"/>
+                </a>
+            <div class=" md:flex justify-center items-center space-x-15 pt-10 md:pt-25 mb-10 md:w-[900px] md:w-[375px] m-auto" >
+
+                <div class="flex justify-between w-[223px] space-x-4 mx-auto md:w-[300px] md:space-x-0 ">  
+                <a href="#" class="font-bold text-sm leading-[19.69px]">Product</a>
+                <a href="#" class="font-bold text-sm leading-[19.69px]">Features</a>
+                <a href="#" class="font-bold text-sm leading-[19.69px]">Resources</a>
+                </div>
+
+                <a href="#" class="md:w-[142px]">
+                    <img src="/src/assets/RAYVIAR.png" alt="logo" class="hidden  md:block md:mx-6"/>
+                </a>
+
+                <div class="flex justify-between w-[223px] mx-auto md:w-[300px]">
+                <a href="#" class="font-bold text-sm leading-[19.69px]">About</a>
+                <a href="#" class="font-bold text-sm leading-[19.69px]">Blog</a>
+                <a href="#" class="font-bold text-sm leading-[19.69px]">Support</a>
+                </div>
+            
+
+            </div>
+            <hr class="border-white  hidden md:block md:w-[1000px] mx-auto mb-18" />
+            <!-- <div class="w- h-0.5 bg-white"></div> -->
+        
+            <!-- Horizontal Line -->
+        
+            <!-- Social Media Icons and Footer Text -->
+            <div class=" md:flex flex-col items-center hidden md:block">
+                <div class="flex space-x-9 mb-20"> 
+                    <a href="#"><img src="/src/assets/instagram.png" alt="Instagram" class="h-6 w-6 text-white"></a>
+                    <a href="#"><img src="/src/assets/twitter.png" alt="Twitter" class="h-6 w-6"></a>
+                    <a href="#"><img src="/src/assets/facebook.png" alt="Facebook" class="h-6 w-6"></a>
+                </div>
+            </div>
+        </div> 
+        <div class=" md:hidden w-93 border-t-2 border-white mb-4  "></div> 
+        <p class="text-sm mt-2 leading-[19.69px]">© 2020 <span class="mx-2 text-sm mt-2 leading-[19.69px]"></span> Privacy — Terms</p>
+
+    </footer>
+
+    </div>
+</body>
+</html>
