@@ -652,23 +652,14 @@
   .h-\[15\.16px\] {
     height: 15.16px;
   }
+  .h-\[15px\] {
+    height: 15px;
+  }
   .h-\[19px\] {
     height: 19px;
   }
   .h-\[20px\] {
     height: 20px;
-  }
-  .h-\[71\.51px\] {
-    height: 71.51px;
-  }
-  .h-\[118\.09px\] {
-    height: 118.09px;
-  }
-  .h-\[151px\] {
-    height: 151px;
-  }
-  .h-\[15px\] {
-    height: 15px;
   }
   .h-\[36px\] {
     height: 36px;
@@ -679,8 +670,17 @@
   .h-\[67px\] {
     height: 67px;
   }
+  .h-\[71\.51px\] {
+    height: 71.51px;
+  }
   .h-\[94px\] {
     height: 94px;
+  }
+  .h-\[118\.09px\] {
+    height: 118.09px;
+  }
+  .h-\[151px\] {
+    height: 151px;
   }
   .h-\[184px\] {
     height: 184px;
@@ -748,11 +748,32 @@
   .w-\[15\.16px\] {
     width: 15.16px;
   }
-  .w-\[155px\] {
-    width: 155px;
-  }
   .w-\[15px\] {
     width: 15px;
+  }
+  .w-\[19px\] {
+    width: 19px;
+  }
+  .w-\[20px\] {
+    width: 20px;
+  }
+  .w-\[50px\] {
+    width: 50px;
+  }
+  .w-\[72\.86px\] {
+    width: 72.86px;
+  }
+  .w-\[110px\] {
+    width: 110px;
+  }
+  .w-\[118\.09px\] {
+    width: 118.09px;
+  }
+  .w-\[119px\] {
+    width: 119px;
+  }
+  .w-\[155px\] {
+    width: 155px;
   }
   .w-\[173px\] {
     width: 173px;
@@ -765,12 +786,6 @@
   }
   .w-\[198px\] {
     width: 198px;
-  }
-  .w-\[19px\] {
-    width: 19px;
-  }
-  .w-\[20px\] {
-    width: 20px;
   }
   .w-\[223px\] {
     width: 223px;
@@ -837,21 +852,6 @@
   }
   .w-\[500px\] {
     width: 500px;
-  }
-  .w-\[50px\] {
-    width: 50px;
-  }
-  .w-\[72\.86px\] {
-    width: 72.86px;
-  }
-  .w-\[110px\] {
-    width: 110px;
-  }
-  .w-\[118\.09px\] {
-    width: 118.09px;
-  }
-  .w-\[119px\] {
-    width: 119px;
   }
   .w-\[753px\] {
     width: 753px;
@@ -1009,6 +1009,10 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
   .border-amber-300 {
     border-color: var(--color-amber-300);
   }
@@ -1045,14 +1049,14 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\,\.\/src\/assets\/bg-image\.png\)\] {
+    background-image: url(,./src/assets/bg-image.png);
+  }
+  .bg-\[url\(\.\.\/src\/assets\/hero-bg-md\.png\)\] {
+    background-image: url(../src/assets/hero-bg-md.png);
+  }
   .bg-\[url\(\.\/src\/assets\/bg-image\.png\)\] {
     background-image: url(./src/assets/bg-image.png);
-  }
-  .bg-\[url\(\.\/src\/assets\/hero-bg-md\.png\)\] {
-    background-image: url(./src/assets/hero-bg-md.png);
-  }
-  .bg-\[url\(src\/assets\/hero-bg-md\.png\)\] {
-    background-image: url(src/assets/hero-bg-md.png);
   }
   .bg-cover {
     background-size: cover;
@@ -1614,19 +1618,19 @@
       border-color: var(--color-black);
     }
   }
+  .md\:bg-\[url\(\.\.\/src\/assets\/bg-imagr\.png\)\] {
+    @media (width >= 48rem) {
+      background-image: url(../src/assets/bg-imagr.png);
+    }
+  }
+  .md\:bg-\[url\(\.\.\/src\/assets\/hero-bg\.png\)\] {
+    @media (width >= 48rem) {
+      background-image: url(../src/assets/hero-bg.png);
+    }
+  }
   .md\:bg-\[url\(\.\/src\/assets\/bg-imagr\.png\)\] {
     @media (width >= 48rem) {
       background-image: url(./src/assets/bg-imagr.png);
-    }
-  }
-  .md\:bg-\[url\(\.\/src\/assets\/hero-bg\.png\)\] {
-    @media (width >= 48rem) {
-      background-image: url(./src/assets/hero-bg.png);
-    }
-  }
-  .md\:bg-\[url\(src\/assets\/hero-bg\.png\)\] {
-    @media (width >= 48rem) {
-      background-image: url(src/assets/hero-bg.png);
     }
   }
   .md\:pt-9 {
